@@ -9,7 +9,7 @@ module Control.Monad.Trans.RWS.CPS.Lens
     ) where
 
 import Control.Lens
-import Control.Monad.Trans.RWS.CPS as Strict
+import Control.Monad.Trans.RWS.CPS.Internal as Strict
 import Control.Monad.Trans.RWS.Lazy as Lazy
 import Control.Monad.RWS.CPS as Strict
 import Control.Lens.Internal.Zoom

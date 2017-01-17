@@ -11,7 +11,7 @@ module Control.Monad.Trans.Writer.CPS.Lens
 
 import Control.Lens
 import Control.Lens.Internal.Zoom
-import Control.Monad.Trans.Writer.CPS as Strict
+import Control.Monad.Trans.Writer.CPS.Internal as Strict
 import Control.Monad.Trans.Writer.Lazy as Lazy
 import Control.Monad.Writer.CPS as Strict
 import Data.Profunctor.Unsafe
