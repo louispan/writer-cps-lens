@@ -1,4 +1,4 @@
-#  Control.Lens instances for the WriterT and RWST monad transformers from writer-cps-transformers
+#  Control.Lens instances for CPS WriterT and RWST monad transformers
 
 [![Hackage](https://img.shields.io/hackage/v/writer-cps-lens.svg)](https://hackage.haskell.org/package/writer-cps-lens)
 [![Build Status](https://secure.travis-ci.org/louispan/writer-cps-lens.png?branch=master)](http://travis-ci.org/louispan/writer-cps-lens)
