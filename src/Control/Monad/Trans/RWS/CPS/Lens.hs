@@ -2,13 +2,14 @@
 {-# LANGUAGE FlexibleInstances #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE TypeFamilies #-}
+{-# LANGUAGE UndecidableInstances #-}
 
 module Control.Monad.Trans.RWS.CPS.Lens where
 
 import Control.Lens
-import Control.Monad.Trans.RWS.CPS.Internal as Strict
-import Control.Monad.RWS.CPS as Strict
 import Control.Lens.Internal.Zoom
+import Control.Monad.RWS.CPS as Strict
+import Control.Monad.Trans.RWS.CPS.Internal as Strict
 import Data.Profunctor.Unsafe
 
 -- | Unlike normal Wrapped instances, this doesn't simply peel off the newtype wrapper,
